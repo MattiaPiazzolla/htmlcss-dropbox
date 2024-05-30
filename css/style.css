@@ -4,18 +4,12 @@
     box-sizing: border-box;
 }
 
-.container-full{
-    width: 100vw;
-}
 .content-footer{
     height: 50px;
     background-color: red;
     border: 1px solid black;
     width: 50%;
     padding: 10px 5px;
-}
-.txt-right{
-   text-align: end;
 }
 
 .content-title{
@@ -41,18 +35,27 @@
     display: flex;
     flex-wrap: wrap;
 }
+.container-full{
+    width: 100vw;
+}
 .container-mid{
     width: 70%;
     margin: 0 auto;
 }
-
+.container-sm{
+    width: 60%;
+    margin: 0 auto;
+}
 .col-100{
     width: 100%;
 }
 
-.col-30{
-    width: 30%;
+.col-40{
+    width: 40%;
 }
-.col-70{
-    width: 70%;
+.col-60{
+    width: 60%;
+}
+.col-33{
+    width: calc(100% / 3);
 }
