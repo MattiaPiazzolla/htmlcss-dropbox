@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-full{
+    width: 100vw;
+}
+.content-footer{
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px 5px;
+}
+.txt-right{
+   text-align: end;
+}
+
+/* LAYOUT */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
