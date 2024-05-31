@@ -47,8 +47,8 @@ main{
     width: 90%;
 }
 .content-jumbo{
-    position: relative;
-    bottom: -50px;
+    position: absolute;
+    bottom: -425px;
 
 }
 
@@ -70,8 +70,7 @@ main{
 .fa-arrow-down{
     font-size: 45px;
 }
-
-.content-title h2{
+h2{
     font-size: 35px;
 }
 
@@ -163,6 +162,9 @@ input[type='radio'] {
 .tab-space-between{
     justify-content: space-between;
 }
+.align-items-center{
+    align-items: center;
+}
 .img-size{
     width: 100%;
 }
@@ -201,7 +203,7 @@ p{
     margin: 0 auto;
 }
 .container-sm{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 .col-100{
@@ -278,6 +280,12 @@ p{
     padding: 5px 15px;
     border: 1px solid black;
 }
+.bg-white-noborder{
+    background-color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
 .light-grey{
     color: #A8A9AB;
 }
@@ -289,6 +297,9 @@ p{
 }
 .txt-right{
     text-align: end;
+}
+.txt-bordeaux{
+    color: #650729;
 }
 .content-header li{
     list-style: none;
@@ -318,6 +329,9 @@ p{
 .mt-100{
     margin-top: 100px;
 }
+.mt-125{
+    margin-top: 125px;
+}
 .mb-100{
     margin-bottom: 100px;
 }
@@ -345,6 +359,12 @@ p{
 .pl-50{
     padding-left: 50px;
 }
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
 .p-100{
     padding: 100px;
 }
@@ -357,6 +377,7 @@ p{
 .text-indent{
     text-indent: -9px;
 }
+
 
 
 /* COMPONENTS */
