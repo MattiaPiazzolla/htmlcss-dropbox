@@ -192,6 +192,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    cursor: pointer;
 }
 .ul-footer{
     color: #fff;
@@ -461,6 +462,17 @@ p{
 
 
 
-/* COMPONENTS */
 
-
+/* BONUS */
+.d-block{
+    display: block;
+}
+.d-block:hover{
+    display: none;
+}
+.d-none{
+    display: none;
+}
+.d-none:hover{
+    display: block;
+}
