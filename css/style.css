@@ -259,19 +259,15 @@ p{
     width: 20%;
 }
 .content-box-sides{
-    background-color: yellow;
     width: 100%;
     aspect-ratio: 1/1;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .content-box{
-    background-color: yellow;
     width: 100%;
     aspect-ratio: 1/1;
-    border: 1px solid black;
     padding: 50px;
 }
 .size-logos {
@@ -294,6 +290,34 @@ p{
 
 
 /* UTILITIES */
+.bg-paper{
+    background-color: #F5F5F5;
+}
+.bg-yellow{
+    background-color: #FFD930;
+}
+.bg-darkblue{
+    background-color: #0D2481;
+}
+.bg-bluegray{
+    background-color: #B4D0E6;
+}
+.bg-darkred{
+    background-color: #FF1C1D;
+}
+.bg-red{
+    background-color: #FF1C1D;
+}
+.bg-sky-blue{
+    background-color: #0193CE;
+}
+.bg-bordaux{
+    background-color: #62082B;
+}
+.bg-lightgreen-border{
+    background-color: #A2D39B;
+    border: 15px solid #D1EACD;
+}
 .bg-lightblue{
     background-color: #B4D0E6;
     margin: 0 auto;
@@ -305,16 +329,28 @@ p{
     background-color: #0061FE;
     padding: 5px 15px;
 }
+.bg-blue:hover{
+    background-color: #2478ff;
+}
 .bg-white{
     background-color: #fff;
     padding: 5px 15px;
     border: 1px solid black;
+}
+.bg-white:hover{
+    background-color: rgb(220, 220, 220);
 }
 .bg-white-noborder{
     background-color: white;
     padding: 10px 45px;
     font-size: 15px;
     margin-bottom: 30px;
+}
+.bg-white-noborder:hover{
+    background-color: rgb(220, 220, 220);
+}
+.logo-white{
+    filter: invert(1);
 }
 .light-grey{
     color: #A8A9AB;
@@ -335,6 +371,9 @@ p{
     list-style: none;
     display: inline-block;
     margin-right: 20px;
+}
+.content-header li:hover{
+    color: #0061FE;
 }
 .v-middle{
     vertical-align: middle;
@@ -423,3 +462,5 @@ p{
 
 
 /* COMPONENTS */
+
+
