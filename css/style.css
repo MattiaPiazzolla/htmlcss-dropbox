@@ -13,6 +13,14 @@ header{
     z-index: 1;
     background-color: #fff;
 }
+.header-v-align{
+    height: 65px;
+    align-items: center;
+}
+.txt-left{
+    align-items: center;
+}
+
 main{
     padding-top: 58px;
 }
@@ -33,15 +41,15 @@ main{
     width: 100%;
 }
 .content-done{
-    width: 100%;
-    height: 100%;   /*chiedi se questa parte va bene*/
     position: relative;
-    padding-left: 50px;
 }
 .content-done .jumbo{
     width: 90%;
-    position: absolute;
-    bottom: -65px;
+}
+.content-jumbo{
+    position: relative;
+    bottom: -50px;
+
 }
 
 .content-header .logo{
@@ -51,7 +59,7 @@ main{
 
 .content-sm h1{
     font-size: 75px;
-    padding: 50px 5px 30px 40px;
+    padding: 50px 5px 30px 0px;
     margin-bottom: 30px;
 }
 .content-done p,.btn{
@@ -85,8 +93,8 @@ input[type='radio'] {
 
 
 .card-vertical{
-    min-height: 750px;
-    height: 75vh;
+    min-height: 1000px;
+    height: 80vh;
     border: 0.5px solid rgb(181, 181, 181);
     display: inline-block;
     font-weight: 100;
@@ -110,6 +118,11 @@ input[type='radio'] {
     padding: 20px;
     margin-top: 15px;
 }
+.tab-list{
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
 .tab-main .btn{
     text-align: center;
     margin: 0 auto;
@@ -123,10 +136,15 @@ input[type='radio'] {
 .card-horizontal i{
     margin-right: 5px;
 }
-.card-horizontal p{
+.card-horizontal, p{
     font-weight: 100;
     font-size: 12.5px;
 }
+.card-vertical, p{
+    font-weight: 100;
+    font-size: 10px;
+}
+
 .card-horizontal{
     border: 0.5px solid rgb(181, 181, 181);
 }
@@ -156,9 +174,9 @@ input[type='radio'] {
     font-weight: 100;
 }
 .content h3{
-    font-size: 25px;
+    font-size: 20px;
 }
-.content p{
+p{
     font-size: 15px;
     font-weight: 100;
 }
@@ -174,6 +192,7 @@ input[type='radio'] {
     display: flex;
     flex-wrap: wrap;
 }
+
 .container-full{
     width: 100vw;
 }
@@ -212,12 +231,33 @@ input[type='radio'] {
 .col-20{
     width: 20%;
 }
+.content-box-sides{
+    background-color: yellow;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content-box{
     background-color: yellow;
     width: 100%;
     aspect-ratio: 1/1;
     border: 1px solid black;
+    padding: 50px;
 }
+.size-logos {
+    max-width: 50%;
+    max-height: 50%;
+}
+.w-20{
+    width: 20%;
+}
+.opa-50{
+    color: rgba(0, 0, 0, 0.25);
+}
+
 .oppure{
     margin-top: 50px;
 }
@@ -305,8 +345,18 @@ input[type='radio'] {
 .pl-50{
     padding-left: 50px;
 }
+.p-100{
+    padding: 100px;
+}
+.w-70{
+    width: 70%;
+}
 .font-small{
     font-size: 12.5px;
 }
+.text-indent{
+    text-indent: -9px;
+}
+
 
 /* COMPONENTS */
