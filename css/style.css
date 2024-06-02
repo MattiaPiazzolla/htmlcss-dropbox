@@ -194,6 +194,13 @@ p{
     align-content: center;
     cursor: pointer;
 }
+.question-bonus{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    cursor: pointer;
+}
+
 .ul-footer{
     color: #fff;
     list-style: none;
@@ -213,6 +220,17 @@ p{
 }
 .lang p{
     color: grey;
+}
+.fa-earth{
+    color: grey;
+}
+
+footer a{
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: #0061FE;
 }
 
 /* LAYOUT */
@@ -464,15 +482,65 @@ p{
 
 
 /* BONUS */
-.d-block{
-    display: block;
-}
-.d-block:hover{
+/* .d-none{
     display: none;
 }
-.d-none{
+
+.col-100:active .d-none{
+    display: block;
+} */
+
+/* BONUS 2.0 */
+input[type="checkbox"]{
     display: none;
 }
-.d-none:hover{
+
+.answer-bonus{
+    display: none;
+}
+
+input[type="checkbox"]:checked + .question-bonus + .answer-bonus {
     display: block;
 }
+
+.lang{
+    display: flex;
+}
+.footer-globe{
+    color: gray;
+    margin-right: 5px;
+}
+select {
+    appearance:none;
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-size: 17.5px;
+    font-weight: 100;
+    position: relative;
+    width: 75px;
+    height: 20px;
+  }
+  .select {
+    overflow: hidden; 
+    height: 20px;    
+    width: 75px;
+    position: relative;
+    display: block;
+}
+
+  .select:after {
+    content:"\f0de";
+    font-family: FontAwesome;
+    color: gray;
+    position: absolute; 
+    right: 5px;
+    top: 50%;
+    transform: translateY(-10%);/* qui sono andato un po a tents*/
+    z-index: 1;
+    text-align: center;
+    height: 100%;      
+    pointer-events: none;
+    box-sizing: border-box;   
+}
+
