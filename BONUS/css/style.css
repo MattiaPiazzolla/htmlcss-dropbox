@@ -313,6 +313,7 @@ footer a:hover{
     width: 100%;
     aspect-ratio: 1/1;
     padding: 50px;
+    overflow: hidden;
 }
 .size-logos {
     max-width: 50%;
