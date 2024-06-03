@@ -205,11 +205,19 @@ p{
     justify-content: space-between;
     align-content: center;
     cursor: pointer;
+    transition: 0.5s;
+}
+.question-bonus p{
+    transition: 0.25s;
 }
 
 .ul-footer{
     color: #fff;
     list-style: none;
+}
+.ul-footer a{
+    text-decoration: none;
+    color: #fff;
 }
 .li-head{
     font-size: 25px;
@@ -515,6 +523,9 @@ footer a:hover{
 input[type="checkbox"]{
     display: none;
 }
+.question-bonus:hover p{
+    font-weight: 600;
+}
 
 .answer-bonus{
     display: none;
@@ -602,6 +613,7 @@ select {
     min-width: 150px;
     margin: 0 auto 20px auto;
     padding-top: 25px;
+    
 }
 .dropdown{
     position: relative;
