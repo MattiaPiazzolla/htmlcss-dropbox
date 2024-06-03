@@ -326,6 +326,9 @@ footer a:hover{
 
 
 /* UTILITIES */
+.bg-yellow, .bg-darkblue, .bg-bluegray, .bg-darkred, .bg-red, .bg-sky-blue, .bg-bordaux, .bg-lightgreen-border{
+    transition: 0.5s;
+}
 .bg-paper{
     background-color: #F5F5F5;
 }
@@ -352,7 +355,6 @@ footer a:hover{
 }
 .bg-lightgreen-border{
     background-color: #A2D39B;
-    border: 15px solid #D1EACD;
 }
 .bg-lightblue{
     background-color: #B4D0E6;
@@ -609,5 +611,30 @@ select {
     display: block;
 }
 
+/* BOX PARTNERS */
+.bg-yellow:hover{
+    border: 15px solid #e7c638;
+}
+.bg-darkblue:hover{
+    border: 15px solid #394e9e;
+}
+.bg-bluegray:hover{
+    border: 15px solid #c9e0f3;
+}
+.bg-darkred:hover{
+    border: 15px solid #d14848;
+}
+.bg-red:hover{
+    border: 15px solid #d14848;
+}
+.bg-sky-blue:hover{
+    border: 15px solid #39b3e3;
+}
+.bg-bordaux:hover{
+    border: 15px solid #812d4d;
+}
+.bg-lightgreen-border:hover{
+    border: 15px solid #D1EACD;
+}
 
 
