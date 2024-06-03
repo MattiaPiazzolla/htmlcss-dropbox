@@ -188,6 +188,9 @@ p{
 .col-33 img{
     width: 100%;
 }
+.col-33 p{
+    padding-right: 10px;
+}
 .col-40 content{
     padding-left: 50px;
 }
@@ -552,11 +555,59 @@ select {
     position: absolute; 
     right: 5px;
     top: 50%;
-    transform: translateY(-10%);/* qui sono andato un po a tents*/
+    transform: translateY(-10%);/* qui sono andato un po a tentativi*/
     z-index: 1;
     text-align: center;
     height: 100%;      
     pointer-events: none;
     box-sizing: border-box;   
 }
+
+/* DROPDOWN MENU */
+.ul-header{
+    position: relative;
+}
+.dropdown::after{
+    content:"\f078";
+    font-family: FontAwesome;
+    color: black;
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-25%);
+    z-index: 1;
+    text-align: center;
+    height: 100%;      
+    pointer-events: none;
+    box-sizing: border-box;
+    margin-left: 2px;
+    font-size: 7.5px;
+}
+.dropdown-menu li{
+    display: block;
+    margin-bottom: 7.5px;
+    padding: 10px;
+}
+.dropdown-menu li a{
+    color: black;
+}
+.dropdown-menu li a:hover{
+    color: #0061FE;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    margin: 0 auto 20px auto;
+    padding-top: 25px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
 

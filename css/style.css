@@ -185,6 +185,9 @@ p{
 .col-33 img{
     width: 100%;
 }
+.col-33 p{
+    padding-right: 10px;
+}
 .col-40 content{
     padding-left: 50px;
 }
